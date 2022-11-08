@@ -7,13 +7,14 @@ import reportWebVitals from './reportWebVitals';
 import Library from './first_proj/Library';
 import Clock from './clock_proj/clock';
 import Counter1 from './first_proj/Counter1';
+import Counter2 from './first_proj/Counter2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <Counter1 />
+      <Counter2 />
     </React.StrictMode>
   );
 }, 1);  
