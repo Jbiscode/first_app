@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ClockState2 from './usingHooks/ClockState2';
+// import ClockState2 from './usingHooks/ClockState2';
+import ClockState3 from './usingHooks/ClockState3';
 
 // import Library from './first_proj/Library';
 // import Clock from './clock_proj/clock';
 // import Counter1 from './usingHooks/Counter1';
 // import Counter2 from './usingHooks/Counter2';
-import { Counter1,Counter2 } from './usingHooks/onClick';
+// import { Counter1,Counter2 } from './usingHooks/onClick';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -18,7 +19,7 @@ setInterval(() => {
     <React.StrictMode>
       {/* <Counter1 />
       <Counter2 /> */}
-      <ClockState2/>
+      <ClockState3/>
     </React.StrictMode>
   );
 }, 1);  
