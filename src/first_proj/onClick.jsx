@@ -24,4 +24,4 @@ function Counter2(props) {
     );
 }
 
-export {Counter1, Counter2} ;
+export {Counter1, Counter2};
