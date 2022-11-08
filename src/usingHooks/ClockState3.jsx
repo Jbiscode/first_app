@@ -1,14 +1,12 @@
 import React,{useState} from "react";
 
 function ClockState3(props) {
-    const [time, setTime] = useState(1);
+    const [time, setTime] = useState(new Date().toLocaleTimeString());
 
     const handleClick = () => {
         let newTime;
-        if (time >=24) {
-            newTime = 1;
-        }else {
-            newTime = time + 1;
+        if (time <=new Date().toLocaleTimeString()) {
+            newTime = new Date().toLocaleTimeString();
         }
         setTime(newTime);
     };
