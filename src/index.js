@@ -4,7 +4,8 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import ClockState2 from './usingHooks/ClockState2';
-import ClockState3 from './usingHooks/ClockState3';
+// import ClockState3 from './usingHooks/ClockState3';
+import UseEffect1 from './usingHooks/UseEffect1';
 
 // import Library from './first_proj/Library';
 // import Clock from './clock_proj/clock';
@@ -14,15 +15,12 @@ import ClockState3 from './usingHooks/ClockState3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-setInterval(() => {
-  root.render(
-    <React.StrictMode>
-      {/* <Counter1 />
-      <Counter2 /> */}
-      <ClockState3/>
-    </React.StrictMode>
-  );
-}, 1);  
+root.render(
+  <React.StrictMode>
+    <UseEffect1/>
+  </React.StrictMode>
+);
+
 
 // root.render(
 //   <React.StrictMode>
