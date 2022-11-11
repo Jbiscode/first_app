@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UseRef from './useRef/UseRef1';
+import Timer from './usingHooks/Timer';
 // import ClockState2 from './usingHooks/ClockState2';
 // import ClockState3 from './usingHooks/ClockState3';
 import UseEffect1 from './usingHooks/UseEffect1';
@@ -17,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <UseEffect1/>
+    <UseRef/>
   </React.StrictMode>
 );
 
